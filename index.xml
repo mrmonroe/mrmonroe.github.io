@@ -1,0 +1,58 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>mrmonroe on mrmonroe </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://mrmonroe.github.io/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Tue, 14 Jun 2022 00:24:20 EDT</updated>
+    
+    <item>
+      <title>Test2</title>
+      <link>https://mrmonroe.github.io/post/test2/</link>
+      <pubDate>Tue, 14 Jun 2022 00:24:20 EDT</pubDate>
+      
+      <guid>https://mrmonroe.github.io/post/test2/</guid>
+      <description>&amp;rsquo;nother test</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://mrmonroe.github.io/post/test/</link>
+      <pubDate>Mon, 13 Jun 2022 23:55:32 EDT</pubDate>
+      
+      <guid>https://mrmonroe.github.io/post/test/</guid>
+      <description>This is a test.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://mrmonroe.github.io/contact/</link>
+      <pubDate>Sun, 09 Nov 2014 13:49:44 &#43;0400</pubDate>
+      
+      <guid>https://mrmonroe.github.io/contact/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://mrmonroe.github.io/search/</link>
+      <pubDate>Sun, 09 Nov 2014 13:49:44 &#43;0400</pubDate>
+      
+      <guid>https://mrmonroe.github.io/search/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://mrmonroe.github.io/about/</link>
+      <pubDate>Sat, 08 Nov 2014 16:42:18 &#43;0400</pubDate>
+      
+      <guid>https://mrmonroe.github.io/about/</guid>
+      <description>Few words about project.</description>
+    </item>
+    
+  </channel>
+</rss>
+
