@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
- <meta charset="utf-8">
- <title><%= config.title %></title>
- <link rel="stylesheet" href="https://unpkg.com/chota@latest">
- <link rel="stylesheet" type="text/css" href="/css/main.css">
-</head>
-<body>
- <div class='container'>
-  <div class="row">
-    <div class="col-12">
-  <%- partial('_partial/nav') %>
-</div>
-</div>
-  <div class="row"> 
-  <aside class="col-2">
-    <a href="<%- theme.social['LinkedIn'] %>"><img src="https://icongr.am/devicon/linkedin-original.svg?size=25&color=currentColor" /></a>
-    <a href="<%- theme.social['Twitter'] %>"><img src="https://icongr.am/devicon/twitter-original.svg?size=25&color=currentColor" /></a>
-    
-    
-  </aside>  
-  <main class="col-10">
-    <%- body %>
-  </main>
-</div>
- </div>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title><%= config.title %></title>
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <script
+      type="application/javascript"
+      src="/js/theme_switch.js"
+      async
+      defer
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12"><%- partial('_partial/nav') %></div>
+      </div>
+      <div class="row">
+        <aside class="col-2">
+          <%- partial('_partial/left_sidebar', {index: true}) %>
+        </aside>
+        <main class="col-10"><%- body %></main>
+      </div>
+    </div>
+  </body>
 </html>
