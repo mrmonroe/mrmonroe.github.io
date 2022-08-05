@@ -4,3 +4,6 @@
   --color-primary: #da1d50; /* brand color */
   --grid-maxWidth: 108rem; /* max container width 1080px */
 }
+
+nav a.active {text-decoration: overline;}
+.brand {padding: 1rem 0rem !important;}

@@ -6,7 +6,7 @@
 
   <div class="nav-center">
     <% for (var i in theme.menu){ %>
-      <a href="<%- url_for(theme.menu[i]) %>" class=""><%= i %></a>
+      <a href="<%- url_for(theme.menu[i]) %>" class="<% if(is_current(theme.menu[i])) { %>active<% } %>"><%= i %></a>
     <% } %>
   </div>
 </nav>
