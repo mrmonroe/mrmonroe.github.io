@@ -3,7 +3,23 @@
 :root {
   --color-primary: #da1d50; /* brand color */
   --grid-maxWidth: 108rem; /* max container width 1080px */
+  --bg-color: #cbcbcb;
 }
 
+
+body.dark {
+  --bg-color: #000;
+  --bg-secondary-color: #131316;
+  --font-color: #f5f5f5;
+  --color-grey: #ccc;
+  --color-darkGrey: #777;
+}
+
+aside p.socialLinks a{margin-right: 1rem;}
 nav a.active {text-decoration: overline;}
 .brand {padding: 1rem 0rem !important;}
+.sidePhoto img {width: 100px; border-radius: 50%; }
+.center-article{
+  margin: 0 auto;
+  padding: 0 1rem;
+}
