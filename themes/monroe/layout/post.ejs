@@ -1,0 +1,11 @@
+<article class="col-6 center-article">
+  <div>
+    <h2><%- page.title %></h2>
+    <p><%- date(page.date, 'MMMM Do, YYYY') %></p>
+  </div>
+  <div><%- page.content %></div>
+  <a href="<%- page.prev %>">Previous</a>
+</article>
+
+<%- page.raw %>
+

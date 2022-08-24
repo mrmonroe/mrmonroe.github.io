@@ -1,12 +1,20 @@
 <nav class="nav">
   <div class="nav-left">
-    <a class="brand" href="/"><%= config.title %></a>
-   
+    <a
+      class="brand"
+      href="/"
+      ><%= config.title %></a
+    >
   </div>
 
   <div class="nav-center">
     <% for (var i in theme.menu){ %>
-      <a href="<%- url_for(theme.menu[i]) %>" class="<% if(is_current(theme.menu[i])) { %>active<% } %>"><%= i %></a>
+    <a
+      href="<%- url_for(site.data.menu[i]) %>"
+      class="<% if(is_current(site.data.menu[i])) { %>active<% } %>"
+      ><%= i %></a
+    >
     <% } %>
   </div>
 </nav>
+
