@@ -4,9 +4,10 @@
   --color-primary: #da1d50; /* brand color */
   --grid-maxWidth: 108rem; /* max container width 1080px */
   --bg-color: #cbcbcb;
+  
 }
 
-
+body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 body.dark {
   --bg-color: #000;
   --bg-secondary-color: #131316;
@@ -19,7 +20,12 @@ aside p.socialLinks a{margin-right: 1rem;}
 nav a.active {text-decoration: overline;}
 .brand {padding: 1rem 0rem !important;}
 .sidePhoto img {width: 100px; border-radius: 50%; }
-.center-article{
+.center-article, .home-main{
   margin: 0 auto;
   padding: 0 1rem;
 }
+.home-post-title{
+  font-size: larger;
+  font-variant: small-caps;
+}
+

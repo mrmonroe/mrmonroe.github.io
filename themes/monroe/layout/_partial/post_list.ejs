@@ -1,0 +1,12 @@
+<main class="home-main">
+  <% posts.forEach(function(post) { %>
+
+  <p class="home-post-title">
+    <%= post.title %>
+    <span style="margin-left: 1rem"><%= date(post.date, 'YY/M/D') %></span>
+  </p>
+  <% if(post.excerpt){ %>
+  <p style="margin-top: -1.5rem"><%- post.excerpt %></p>
+  <% }; %> <% }); %>
+</main>
+
